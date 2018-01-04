@@ -7,7 +7,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>amaranthe</string>
+	<string>amarantheme</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -89,8 +89,19 @@
 			<string>variable</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
+				<key>foreground</key>
+				<string>#89C6ED</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable Symbol</string>
+			<key>scope</key>
+			<string>punctuation.definition.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF327A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -101,7 +112,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#89C6ED</string>
+				<string>#C5A3FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -292,6 +303,8 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dark.monokai</string>
+	<string>theme.dark.amarantheme</string>
+	<key>author</key>
+	<string>Tim Burbank</string>
 </dict>
 </plist>
